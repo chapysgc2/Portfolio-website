@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== Logo utm ===============-->
+        <link rel="shortcut icon" href="assets/img/institution-logo-2831.jpg" type="image/x-icon">
+        
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+
+        <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="assets/css/materialize/css/materialize.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="assets/css/materialize/js/materialize.js"></script>
+            
+
+
+        
+
+        
+
+        <title>Portfolio website-Hazel</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="profile container">
+            <!-- Theme button -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__perfil">
+                            <!-- inserta imagen de portfolio -->
+                            <img src="assets/img/fotoperfil.png" alt="">
+                        </div>
+                    </div>
+
+                    <h2 class="profile__name">Hazel Alain García López</h2>
+                    <h3 class="profile__profession">Estudiante de ingeniería en Computación.</h3>
+
+                    <ul class="profile__social">
+                        <a href="https://www.instagram.com/hazel.alain/" target="_blank" class="profile__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/hazel-alain-garc%C3%ADa-l%C3%B3pez-27220b223/" target="_blank" class="profile__social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                        <a href="https://github.com/chapysgc2" target="_blank" class="profile__social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="profile__info grid">
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">4</h3>
+                        <p class="profile__info-description">
+                            años de<br> estudio
+                        </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">+10</h3>
+                        <p class="profile__info-description">
+                            Proyectos <br> terminados
+                        </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">Becario</h3>
+                        <p class="profile__info-description">Experiencia<br>laboral</p>
+                    </div>
+                </div>
+
+                <div class="profile__buttons">
+                    <!-- Insert your CV -->
+                    <a download="" href="https://drive.google.com/file/d/1bUxMNjyPPud6-oa7Ci4TaH1m0EPayavs/view?usp=sharing" class="button">
+                        Descargar CV <i class="ri-download-line"></i>
+                    </a>
+
+                    <div class="profile__buttons-small">
+                        <!-- Insert a real number plus country code -->
+                        <a href="https://api.whatsapp.com/send?phone=+529541451671&text=Hello, more information!" target="_blank" class="button button__small button__gray">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                        <!-- Insert your brand name or profile -->
+
+                        
+                        <a href="tel:+529541451671" target="_blank" class="button button__small button__gray">
+
+                            <i class="ri-phone-line"></i>
+
+                            <a target="_blank" class="button button__small button__gray">
+                                
+                                <i class="ri-mail-line"></i> 
+                                hazelo235@gmail.com
+                            </a>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                <ul class="filters__content">
+                    <button class="filters__button filter-tab-active" data-target="#projects">
+                        Proyectos
+                    </button>
+                    <button class="filters__button" data-target="#skills">
+                        Habilidades
+                    </button>
+
+                    <button class="filters__button filter-tab-active" data-target="#universidad">
+                        Universidad
+                    </button>
+                    <button class="filters__button filter-tab-active" data-target="#Yo">
+                        Yo
+                    </button>
+                </ul>
+
+                <div class="filters__sections">
+                    <!--=============== PROJECTS ===============-->
+                    <div class="projects__content grid filters__active" data-content id="projects">
+                        <article class="projects__card">
+                            <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+                            <img src="assets/img/project1.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h3 class="projects__title">Colectividad Artística <br> Oaxaqueña</h3>
+                                    <a href="https://github.com/AldereteRuben/ProyectoArte" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project2.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h3 class="projects__title">Portfolio website</h3>
+                                    <a href="https://github.com/chapysgc2/Portfolio-website" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project3.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h3 class="projects__title">Juego Ping-pong </h3>
+                                    <a href="https://github.com/chapysgc2/Ping-Pong" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project4.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h3 class="projects__title">Proyecto <br>UTM</h3>
+                                    <a href="https://github.com/chapysgc2/ProyectoUTM.git" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project5.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Java</span>
+                                    <h3 class="projects__title">Compilador</h3>
+                                    <a href="https://github.com/chapysgc2/Compilador-Java" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+
+
+
+
+
+
+                    
+
+                    <!--=============== SKILLS ===============-->
+                    <div class="skills__content grid" data-content id="skills">
+                        <div class="skills__area">
+                            <h3 class="skills__title">Frontend Developer</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">HTML</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">CSS</h3>
+                                            <span class="skills__level">Advanced</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">JavaScript</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Java</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Bootstrap</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Git</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">Backend Developer</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">PHP</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">MySQL</h3>
+                                            <span class="skills__level">Advance</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Angular</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Python</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Node Js</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">C++ y C</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!--=============== universidad ===============-->
+                    <div  class="universidad" data-content id="universidad">
+
+
+                        <div class="galeria">
+                            <h1>Universidad Tecnológica de la Mixteca</h1>
+                            
+                            <p class="mucho-texto">En el estado de Oaxaca, en el corazón de México, varias universidades públicas responden a un mismo modelo, diferente al de las universidades tradicionales. Las cuales forman parte del Sistema de Universidades Estatales de Oaxaca (SUNEO). Entre ellas se encuentra la Universidad Tecnológica de la Mixteca.
+
+                                Esta institución ha sido concebida como instrumento cultural de transformación del entorno social además de los fines tradicionales de las universidades clásicas:
+                                
+                            </p>
+                            
+                            <ul class="mucho-texto">
+                                <li>Enseñanza.</li>
+                                <li>Investigación.</li>
+                                <li>Difusión Cultural.</li>
+                                <li>Promoción del Desarrollo</li>
+                                <li>Propuesta del Nuevo Modelo.</li>
+                            </ul>
+
+                            <h2>Historia</h2>
+                            <p class="mucho-texto">
+
+                                La Universidad Tecnológica de la Mixteca, UTM, inició operaciones en Febrero de 1990, aunque formalmente fue inaugurada el 22 de
+                                Febrero de 1991 con la presencia del Presidente de México, y el Presidente de Costa Rica, así como del Gobernador del estado de Oaxaca 
+                                y del Secretario de Educación Pública.
+                            </p>
+
+                            <h2>Objetivo General</h2>
+
+                            <p class="mucho-texto">
+
+                                
+                                El apoyo regional de la Mixteca se realiza a través del desarrollo y
+                                aplicación de nuevas tecnologias, derivado de un proceso de
+                                investigación cientifica. Esta es la misión del Instituto de Electrónica y
+                                Computación, dedicado a la investigación científica de calidad, al
+                                desarrollo y aplicación de nuevas tecnologias, y a la educación superior.
+
+                            </p>
+                            
+                            <div class="linea"></div>
+                            <div class="contenedor-imagenes">
+                                <div class="imagen">
+                                    <img src="assets/img/PXL_4.jpg" alt="">
+                                    <div class="overlay">
+                                        <h2>Entrada</h2>
+                                    </div>
+                                </div>
+                                <div class="imagen">
+                                    <img src="assets/img/PXL_1.jpg" alt="">
+                                    <div class="overlay">
+                                        <h2>Noche</h2>
+                                    </div>
+                                </div>
+                                <div class="imagen">
+                                    <img src="assets/img/PXL_2.jpg" alt="">
+                                    <div class="overlay">
+                                        <h2>Instituto de <br>Computación </h2>
+                                    </div>
+                                </div>
+                                <div class="imagen">
+                                    <img src="assets/img/PXL_3.jpg" alt="">
+                                    <div class="overlay">
+                                        <h2>Laboratorios</h2>
+                                    </div>
+                                </div>
+                                <div class="imagen">
+                                    <img src="assets/img/d.jpg" alt="">
+                                    <div class="overlay">
+                                        <h2>Deportes</h2>
+                                    </div>
+                                </div>
+                                <div class="imagen">
+                                    <img src="assets/img/IMG_20200310_001703.jpg" alt="">
+                                    <div class="overlay">
+                                        <h2>Noche</h2>
+                                    </div>
+                                </div>
+                                <div class="imagen">
+                                    <img src="assets/img/PXL_20211021_210844657.jpg" alt="">
+                                    <div class="overlay">
+                                        <h2>Dia <br>Nublado</h2>
+                                    </div>
+                                </div>
+                                <div class="imagen">
+                                    <img src="assets/img/PXL_20211110_003927565.NIGHT.jpg" alt="">
+                                    <div class="overlay">
+                                        <h2>Instituto</h2>
+                                    </div>
+                                </div>
+                                <div class="imagen">
+                                    <img src="assets/img/PXL_20220422_224951996.jpg" alt="">
+                                    <div class="overlay">
+                                        <h2>Salas de <br>Computo</h2>
+                                    </div>
+                                </div>
+                                <!-- <div class="imagen">
+                                    <img src="img/1 (2).jpg" alt="">
+                                </div> -->
+                            </div>
+                        </div>
+
+                        
+                        
+
+
+
+
+
+
+                        
+
+
+
+
+                        
+
+
+
+                        
+
+
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+
+
+
+                    <!--=============== universidad ===============-->
+                    <div class="Yo" data-content id="Yo">
+
+
+                        <div class="galeria">
+                            <h1>Acerca de mi</h1>
+                            <ul class="mucho-texto">
+                                <li>Hazel Alain García López</li>
+                                <li>Estudiante de ingeniería en Computación.</li>
+                                <li>Telefono: +529541451671</li>
+                                <li>Email: hazelo235@gmail.com</li>
+                            </ul>
+
+                            <h3>Descripción personal</h3>
+
+                            <p class="mucho-texto">
+                                Estudiante de Ingeniería en Computación.
+                                Actualmente me encuentro estudiando ingeniería en computación, pero me encuentro abierto a nuevas posibilidades.
+                                He trabajado en las áreas de desarrollo web, desarrollo de aplicaciones de escritorio, análisis de datos, recopilación de datos 
+                                y dirigir Proyectos pequeños.
+
+
+                            </p>
+                            <h3>Experiencia</h3>
+
+                            <p class="mucho-texto">
+                                Actualmente no cuento con experiencia en el campo laboral con una empresa, pero si cuento con experiencia en trabajos pequeños
+                                con amigos, como lo son:
+                            </p>
+                                <dl class="mucho-texto">
+                                   <li> Paginas web </li>
+                                   <li>Desarrollo de aplicaciones escritorio y movil</li>
+                                   <li>Resolver problemas matematicos con python</li>
+                                   <li> Realicé actualización de la documentación técnica de forma quincenal, cumpliendo con el 100% de mis fechas de entrega. </li>
+                                   <li>Apoyé a los ingenieros senior en las labores de instalación y mantenimiento de sistemas.</li>
+                                </dl>
+
+                                <h3>Educación</h3>
+                                <dl class="mucho-texto">
+
+                                    <li>Estudiante en Ingeniería en Computación <br> en Universidad Tecnológica de la Mixteca</li>
+                                </dl>
+                                <h3>Idiomas</h3>
+
+                                <dl class="mucho-texto">
+                                    <li>Ingles: Nivel PET-B <br>Medio</li>
+                                    <li>Español: Nativo</li>
+                                </dl>
+
+
+                            <div class="linea"></div>
+                            <div class="contenedor-imagenes">
+                                <div class="imagen">
+                                    <img src="assets/img/p1.jpg" alt="">
+                                    <div class="overlay">
+                                        <h2>Hazel</h2>
+                                    </div>
+                                </div>
+                                <div class="imagen">
+                                    <img src="assets/img/p2.jpg" alt="">
+                                    <div class="overlay">
+                                        <h2>Excursión</h2>
+                                    </div>
+                                </div>
+                                <div class="imagen">
+                                    <img src="assets/img/b.jpeg" alt="">
+                                    <div class="overlay">
+                                        <h2>Amistad</h2>
+                                    </div>
+                                </div>
+                                <div class="imagen">
+                                    <img src="assets/img/c.jpg" alt="">
+                                    <div class="overlay">
+                                        <h2>Pasatiempo</h2>
+                                    </div>
+                                </div>
+                                <div class="imagen">
+                                    <img src="assets/img/p5.jpg" alt="">
+                                    <div class="overlay">
+                                        <h2>Hermandad</h2>
+                                    </div>
+                                </div>
+                                <div class="imagen">
+                                    <img src="assets/img/p6.jpg" alt="">
+                                    <div class="overlay">
+                                        <h2>Amistad</h2>
+                                    </div>
+                                </div>
+                                <div class="imagen">
+                                    <img src="assets/img/p7.jpg" alt="">
+                                    <div class="overlay">
+                                        <h2>Maestro</h2>
+                                    </div>
+                                </div>
+                                <div class="imagen">
+                                    <img src="assets/img/p8.jpg" alt="">
+                                    <div class="overlay">
+                                        <h2>Amistad</h2>
+                                    </div>
+                                </div>
+                                <div class="imagen">
+                                    <img src="assets/img/p10.jpg" alt="">
+                                    <div class="overlay">
+                                        <h2>Kooks</h2>
+                                    </div>
+                                </div>
+                                <!-- <div class="imagen">
+                                    <img src="img/1 (2).jpg" alt="">
+                                </div> -->
+                            </div>
+                        </div>
+
+                        
+                        
+
+
+
+
+
+
+                        
+
+
+
+
+                        
+
+
+
+                        
+
+
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+
+
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer container">
+            <span class="footer__copy">
+                &#169; Hazel Alain. Todos los derechos reservados
+            </span>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
